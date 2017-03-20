@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.my-panel {
+  padding: 30px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  color: #fff;
+}
+label:hover{
+  color: #fff;
+}
+.my-nike-item {
+  background-color: #333;
+  padding: 8px;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 5px 5px 2px #888888;
+}
+
+.my-text-bold {
+  font-weight: bold;
+}
+h4{
+  color: #fff;
+  
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
